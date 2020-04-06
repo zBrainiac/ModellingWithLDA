@@ -1,6 +1,10 @@
 # Setup
 # -----
 
+#reresh pip
+!pip3 install --upgrade pip
+
+
 #NLTK, a natural language toolkit for Python. A useful package for any natural language processing.
 
 !pip3 install -U nltk
