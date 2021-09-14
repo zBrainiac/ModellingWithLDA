@@ -15,7 +15,8 @@
 
 #gensim, a topic modeling package containing our LDA model.
 
-!pip3 install gensim
+!pip3 install gensim==3.8.3
+!pip3 install numpy==1.21.1
 
 #pyLDAvis Python library for interactive topic model visualization. Port of the R LDAvis package.
 

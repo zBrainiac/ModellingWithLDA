@@ -20,9 +20,10 @@ warnings.simplefilter('ignore')
 
 import pyLDAvis
 
-import pyLDAvis.gensim
+import pyLDAvis.gensim_models as gensimvis
+pyLDAvis.enable_notebook()
 
-vis_data=pyLDAvis.gensim.prepare(ldamodel, corpus, dictionary,sort_topics=False)
+vis_data=gensimvis.prepare(ldamodel, corpus, dictionary,sort_topics=False)
 
 pyLDAvis.display(vis_data)
 
